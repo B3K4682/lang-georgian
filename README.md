@@ -26,7 +26,7 @@ php flarum cache:clear
 ### ლოკალიზაცია / Localization
   - დროის ფორმატის შეცვლა
 
-### მხარდაშერილი გაფართოებები / Supported Extensions
+### მხარდაჭერილი გაფართოებები / Supported Extensions
 https://rob006-software.github.io/flarum-translations/status/ja.html
 
 
