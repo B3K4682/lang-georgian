@@ -34,7 +34,7 @@
         "backgroundSize": "cover",
         "backgroundPosition": "center",
         "color": "#FF0000"
-      }
+      },
     },
     "flarum-locale": {
       "code": "ka",
