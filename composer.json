@@ -7,7 +7,7 @@
     "georgian",
     "ქართული",
     "translation"
-  ],
+  ],z
   "type": "flarum-extension",
   "license": "MIT",
   "authors": [
@@ -15,7 +15,7 @@
       "name": "B3K4",
       "email": "littlegoldenjin@gmail.com",
       "homepage": "https://github.com/Littlegolden"
-    },
+    }
    
   ],
   "support": {
@@ -34,11 +34,11 @@
         "backgroundSize": "cover",
         "backgroundPosition": "center",
         "color": "#FF0000"
-      },
+      }
     },
     "flarum-locale": {
       "code": "ka",
       "title": "ქართული"
     },
-  },
+  }
 }
