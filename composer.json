@@ -1,0 +1,44 @@
+{
+  "name": "littlegolden/flarum-lang-georgian",
+  "description": "Flarum Georgian language 2020",
+  "keywords": [
+    "flarum",
+    "locale",
+    "georgian",
+    "ქართული",
+    "translation"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "B3K4",
+      "email": "littlegoldenjin@gmail.com",
+      "homepage": "https://github.com/Littlegolden"
+    },
+   
+  ],
+  "support": {
+    "source": "https://github.com/B3K4682/flarum-lang-georgian",
+    "issues": "https://github.com/B3K4682/flarum-lang-georgian/issues"
+  },
+  "require": {
+    "flarum/core": "^0.1.0-beta.15"
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Georgian",
+        "icon": {
+        "name": "icon.svg",
+        "background": "#ffffff",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center",
+        "color": "#FF0000"
+      }
+    },
+    "flarum-locale": {
+      "code": "ka",
+      "title": "ქართული"
+    },
+  }
+}
