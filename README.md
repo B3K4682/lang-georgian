@@ -1,2 +1,48 @@
-# lang-georgian
-Georgian Language pack for Flarum
+## Flarum Georgian Language Pack / ქართული (beta 15+)
+
+
+### მოთხოვნები / Requirement
+  - Flarum v0.1.0-beta.15 or later
+
+### ჩაწერა / Installation
+```
+composer require outplay/flarum-lang-georgian
+```
+
+### განახლება / Update
+```
+composer update outplay/flarum-lang-georgian
+```
+
+### წაშლა / Remove
+```
+composer remove outplay/flarum-lang-georgian
+```
+
+### ქეშის გასუფთავება / Clear Cache
+```
+php flarum cache:clear
+```
+### ლოკალიზაცია / Localization
+  - დროის ფორმატის შეცვლა
+
+### მხარდაშერილი გაფართოებები / Supported Extensions
+https://rob006-software.github.io/flarum-translations/status/ja.html
+
+
+### შეცდომის გასაჩივრება / Report Issue
+  - [Github](https://github.com/B3K4682/lang-georgian/issues)
+
+### კონტრიბუცია
+
+ნახეთ ასევე [wiki](https://github.com/B3K4682/lang-georgian/wiki#contributing) for details.
+
+### ლინკები / Links
+  - [Flarum](https://discuss.flarum.org/d/22631)
+  - [Github](https://github.com/littlegolden/flarum-lang-japanese)
+  - [Packagist](https://packagist.org/packages/littlegolden/flarum-lang-japanese)
+
+### დონაცია / Donate
+ყიყლიყო შემიწვით \^_\^
+
+ - დონაცია არ არის
