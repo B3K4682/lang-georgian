@@ -6,6 +6,9 @@ core:
   admin:
     add_extension:
       developer_text: 'თუ დეველოპერი ხართ, შეგიძლიათ <a>წაიკითხოთ დოკუმენტები</a> და გაეცნოთ საკუთარი გაფართოებების შექმნას.'
+      install_text: 'ამასობაში, შეგიძლიათ მოძებნოთ გაფართოებები <a>Flarum Community საიტზე</a> და ხელით დააინსტალიროთ კომპოზიტორის გამოყენებით.'
+      temporary_text: 'არც თუ ისე შორეულ მომავალში, ერთ დღეს, ეს დიალოგი საშუალებას მოგცემთ მარტივად დაამატოთ გაფართოება თქვენს ფორუმში. ჩვენ ვსაუბრობთ ეკოსისტემას!'
+      title: 'გაფართოების დამატება'
     appearance:
       colored_header_label: 'ფერადი სათაური'
       colors_heading: ფერები
@@ -94,6 +97,9 @@ core:
       permissions_title: უფლებები
       saved_message: 'თქვენი ცვლილებები შენახულია.'
       uninstall_button: წაშლა
+    extensions:
+      add_button: 'გაფართოების დამატება'
+      uninstall_button: ამოშლა
     header:
       get_help: 'დახმარების მიღება'
     loading:
@@ -154,3 +160,137 @@ core:
       signup_open_button: გახსნილი
     upload_image:
       upload_button: 'აირჩიეთ სურათი...'
+  forum:
+    change_email:
+      incorrect_password_message: 'თქვენ მიერ შეყვანილი პაროლი არასწორია.'
+    change_password:
+      send_button: 'გაგზავნეთ პაროლის გადაყენების ელ.ფოსტა'
+      text: 'დააწკაპუნეთ ქვემოთ მოცემულ ღილაკზე და შეამოწმეთ თქვენი ელ.ფოსტა, რომ იპოვოთ ბმული პაროლის შესაცვლელად.'
+    composer:
+      close_tooltip: დახურვა
+      exit_full_screen_tooltip: 'მთლიანი ეკრანიდან გასვლა'
+      full_screen_tooltip: 'სრული ეკრანი'
+      minimize_tooltip: მინიმიზაცია
+      preview_tooltip: გადახედვა
+    composer_discussion:
+      body_placeholder: 'დაწერე პოსტი...'
+      discard_confirmation: 'თქვენ არ განათავსეთ თქვენი დისკუსია. გსურთ მისი გაუქმება?'
+      submit_button: 'დისკუსიის დაპოსტვა'
+      title_placeholder: 'დისკუსიის სათაური'
+    composer_edit:
+      discard_confirmation: 'თქვენ არ შეინახეთ თქვენი ცვლილებები. გსურთ მათი გაუქმება?'
+      edited_message: 'თქვენი რედაქტირება განხორციელდა.'
+      post_link: 'გამოაქვეყნეთ #{number} {discussion} ში'
+    composer_reply:
+      discard_confirmation: 'თქვენ არ გამოაქვეყნეთ თქვენი პასუხი. გსურთ მისი გაუქმება?'
+      posted_message: 'თქვენი პასუხი გამოქვეყნდა.'
+      submit_button: 'პასუხის დაპოსტვა'
+    discussion_controls:
+      cannot_reply_button: 'პასუხის გაცემა შეუძლებელია'
+      cannot_reply_text: 'თქვენ არ გაქვთ ამ დისკუსიაზე პასუხის გაცემის უფლება.'
+      delete_confirmation: 'დარწმუნებული ხართ, რომ გსურთ ამ დისკუსიის წაშლა?'
+      log_in_to_reply_button: 'შედით პასუხის გასაცემად'
+    discussion_list:
+      empty_text: 'როგორც ჩანს, აქ არანაირი დისკუსია არ არის.'
+      mark_as_read_tooltip: 'წაკითხულად მონიშვნა'
+      replied_text: '{username} უპასუხა {ago}'
+      started_text: '{username} დაიწყო {ago}'
+    edit_user:
+      activate_button: 'გაააქტიურეთ მომხმარებელი'
+      groups_heading: ჯგუფები
+      set_password_label: 'დააყენეთ ახალი პაროლი'
+      title: 'მომხმარებლის რედაქტირება'
+    forgot_password:
+      email_sent_message: 'ჩვენ გამოგიგზავნეთ ელ.წერილი, რომელიც შეიცავს ბმულს თქვენი პაროლის გადასაყენებლად. შეამოწმეთ თქვენი სპამის საქაღალდე, თუ არ მიიღებთ მომდევნო ერთ ან ორ წუთში.'
+      not_found_message: 'ელ.ფოსტის მისამართზე რეგისტრირებული მომხმარებელი არ არის.'
+      submit_button: 'პაროლის აღდგენა'
+      text: 'შეიყვანეთ თქვენი ელ.ფოსტის მისამართი და ჩვენ გამოგიგზავნით ბმულს თქვენი პაროლის დასაყენებლად.'
+      title: 'პაროლი დაგავიწყდა'
+    header:
+      admin_button: ადმინისტრაცია
+      back_to_index_tooltip: 'განხილვის სიაში დაბრუნება'
+      profile_button: პროფილი
+      search_placeholder: 'ფორუმის ძებნა'
+    index:
+      cannot_start_discussion_button: 'დისკუსიის დაწყება შეუძლებელია'
+      mark_all_as_read_confirmation: 'დარწმუნებული ხართ, რომ გსურთ ყველა დისკუსიის წაკითხულად მონიშვნა?'
+      refresh_tooltip: განახლება
+    index_sort:
+      latest_button: უახლესი
+      newest_button: უახლესი
+      oldest_button: უძველესი
+      relevance_button: შესაბამისობა
+      top_button: საუკეთესო
+    log_in:
+      forgot_password_link: 'დაგავიწყდათ პაროლი?'
+      invalid_login_message: 'თქვენი შესვლის მონაცემები არასწორი იყო.'
+      remember_me_label: დამიმახსოვრე
+      sign_up_text: 'არ გაქვთ ანგარიში? <a>დარეგისტრირდით</a>'
+      username_or_email_placeholder: 'მომხმარებლის სახელი ან ელ.ფოსტა'
+    notifications:
+      discussion_renamed_text: '{username} მა შეცვალა სათაური'
+      empty_text: 'შეტყობინებები არ არის'
+      mark_as_read_tooltip: 'წაკითხულად მონიშვნა'
+    post:
+      edited_text: რედაქტირებულია
+      edited_tooltip: '{username} დაარედაქტირა {ago}'
+      number_tooltip: 'პოსტი #{number}'
+    post_controls:
+      delete_confirmation: 'დარწმუნებული ხართ, რომ გსურთ სამუდამოდ წაშალოთ ეს პოსტი? ამ მოქმედების გაუქმება შეუძლებელია.'
+      hide_confirmation: 'დარწმუნებული ხართ, რომ გსურთ ამ პოსტის წაშლა?'
+    post_scrubber:
+      now_link: ახლა
+      original_post_link: 'ორიგინალი პოსტი'
+      unread_text: '{count} წაუკითხავი'
+      viewing_text: '{count} პოსტიდან {count} პოსტი | {index} სულ {count} პოსტიდან'
+    post_stream:
+      discussion_renamed_old_tooltip: 'ძველი სათაური იყო: "{old}"'
+      discussion_renamed_text: '{username} შეცვალა სათაური და გახდა {new}.'
+      time_lapsed_text: '{period} შემდეგ'
+    rename_discussion:
+      title: 'დისკუსიის გადარქმევა'
+    search:
+      all_discussions_button: 'ყველა დისკუსიის ძიება "{query}" -ისთვის'
+    settings:
+      account_heading: ანგარიში
+      notify_by_web_heading: ვები
+      notify_discussion_renamed_label: 'ვიღაც სახელს უცვლის ჩემს დაწყებულ დისკუსიას'
+      privacy_disclose_online_label: 'ნება დართეთ სხვებმა ნახონ, როდის ვარ ონლაინ'
+      privacy_heading: კონფიდენციალურობა
+    sign_up:
+      log_in_text: 'უკვე გაქვთ ანგარიში? <a>შედით</a>'
+      welcome_text: 'მოგესალმებით, {username}!'
+    user:
+      avatar_upload_button: ატვირთვა
+      avatar_upload_tooltip: 'ახალი ავატარის ატვირთვა'
+      in_discussion_text: '{discussion} ში'
+      joined_date_text: 'შემოუერთდა {ago}'
+      online_text: ონლაინი
+      posts_empty_text: 'როგორც ჩანს, აქ შეტყობინებები არ არის.'
+    user_controls:
+      button: კონტროლი
+      delete_confirmation: 'დარწმუნებული ხართ, რომ გსურთ ამ მომხმარებლის წაშლა? მომხმარებლის შეტყობინებები არ წაიშლება.'
+      delete_error_message: 'მომხმარებლის <i>{username} ({email)}</ i> წაშლა ვერ მოხერხდა'
+      delete_success_message: 'მომხმარებელი <i>{username} ({email})</ i> წაიშალა'
+    user_email_confirmation:
+      resend_button: 'ხელახლა გაგზავნეთ დამადასტურებელი ელ.ფოსტა'
+      sent_message: გაგზავნილი
+  lib:
+    badge:
+      hidden_tooltip: დამალული
+    error:
+      dependent_extensions_message: 'შეუძლებელია {extension} გამორთვა სანამ არ მოხდება შემდეგი დამოკიდებული გაფართოებების გამორთვა: {extensions}'
+      generic_message: 'უი! Რაღაც არასწორად წავიდა. გთხოვთ, გადატვირთოთ გვერდი და ისევ სცადოთ.'
+      missing_dependencies_message: 'შეუძელებლია {extension} გაფართოების ჩართვა, სანამ შემდეგი გაფართოებები ჩართულია: {extensions}'
+      not_found_message: 'მოთხოვნილი რესურსი ვერ მოიძებნა.'
+      permission_denied_message: 'თქვენ არ გაქვთ ამის ნებართვა.'
+      rate_limit_exceeded_message: 'ცოტა სწრაფად მიდიხარ. გთხოვთ, სცადოთ ხელახლა რამდენიმე წამში.'
+    number_suffix:
+      kilo_text: კ
+      mega_text: მ
+    series:
+      glue_text: ', '
+      three_text: '{first}, {second}, და {third}'
+      two_text: '{first} და {second}'
+    username:
+      deleted_text: '[წაშლილია]'
