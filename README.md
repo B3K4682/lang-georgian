@@ -35,12 +35,12 @@ https://rob006-software.github.io/flarum-translations/status/ja.html
 
 ### კონტრიბუცია
 
-ნახეთ ასევე [wiki](https://github.com/B3K4682/lang-georgian/wiki#contributing) for details.
+ნახეთ ასევე [wiki](https://github.com/B3K4682/lang-georgian/wiki#contributing) დეტალებისთვის.
 
 ### ლინკები / Links
-  - [Flarum](https://discuss.flarum.org/d/22631)
-  - [Github](https://github.com/littlegolden/flarum-lang-japanese)
-  - [Packagist](https://packagist.org/packages/littlegolden/flarum-lang-japanese)
+  - [Flarum](https://discuss.flarum.org)
+  - [Github](https://github.com/B3K4682/lang-georgian)
+  - [Packagist](https://packagist.org/packages/outplay/flarum-lang-georgian)
 
 ### დონაცია / Donate
 ყიყლიყო შემიწვით \^_\^
