@@ -45,4 +45,4 @@ https://rob006-software.github.io/flarum-translations/status/ja.html
 ### დონაცია / Donate
 ყიყლიყო შემიწვით \^_\^
 
-  - [Streamlabs](https://www.streamlabs.com/Beqa%20Winchester)
+  - [Streamlabs](https://streamlabs.com/საინტერესოსაინტერესო/tip)
