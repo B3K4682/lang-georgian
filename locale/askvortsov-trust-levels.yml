@@ -11,6 +11,7 @@ askvortsov-trust-levels:
       discussions_participated: 'დისკუსიაში მონაწილეობა მიიღეს'
       discussions_started: 'დისკუსია დაიწყო'
       likes_given: 'ლაიქი მიცემულია'
+      likes_received: 'მიღებულია მოწონებები'
       posts_made: 'პოსტი შეიქმნა'
     trust_level_modal:
       delete_button: 'ნდობის დონის წაშლა'

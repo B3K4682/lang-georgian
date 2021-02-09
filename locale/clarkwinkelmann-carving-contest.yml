@@ -10,10 +10,14 @@ clarkwinkelmann-carving-contest:
       moderate: ზომიერი
       participate: მონაწილეობა
       view: 'ნახეთ მასალა'
+    settings:
+      maxEntriesPerUser: 'მაქსიმალური გაგზავნა თითო მომხმარებელზე'
+      title: 'კვეთის კონკურსის პარამეტრები'
   forum:
     likes_modal:
       title: 'მომხმარებლები, რომლებსაც მოსწონთ ეს ჩანაწერი'
     modal:
+      name: 'დაასახელეთ თქვენი ქმნილება'
       submit: გაგზავნა
       title: მონაწილეობა
       tools:
@@ -23,12 +27,19 @@ clarkwinkelmann-carving-contest:
       contest: 'კვეთის კონკურსი'
     page:
       already-liked: მომწონს
+      already-participated: 'თქვენ უკვე მონაწილეობთ'
+      delete-confirmation: 'ნამდვილად გსურთ რომ წაშალოთ "{name}" {username}? ეს მომხმარებელი?'
       like: მოწონება
-      load-more: 'ყველაზე მეტი ლაიქი'
+      likes:
+        liked_by_self_text: '{users} მოწონს ეს.'
+      load-more: 'მეტი ჩანაწერის ჩატვირთვა'
+      loading: 'იტვირთება ჩანაწერები...'
+      participate: მონაწილეობა
       refresh: გადატვირთვა
       sort:
         fewerLikes: 'ნაკლები მოწონება'
         leastRecent: 'სულ ცოტა ხნის წინ'
         mostLikes: 'ყველაზე მეტი ლაიქი'
         mostRecent: 'ცოტა ხნის წინ გამოქვეყნდა'
+      title: 'გოგრაზე კვეთის კონკურსი'
       unlike: 'არ მომწონს'
