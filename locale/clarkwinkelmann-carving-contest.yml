@@ -5,14 +5,12 @@
 clarkwinkelmann-carving-contest:
   admin:
     permissions:
-      heading: 'კვეთის კონკურსი'
       like: 'Like მასალა'
       moderate: ზომიერი
       participate: მონაწილეობა
       view: 'ნახეთ მასალა'
     settings:
       maxEntriesPerUser: 'მაქსიმალური გაგზავნა თითო მომხმარებელზე'
-      title: 'კვეთის კონკურსის პარამეტრები'
   forum:
     likes_modal:
       title: 'მომხმარებლები, რომლებსაც მოსწონთ ეს ჩანაწერი'

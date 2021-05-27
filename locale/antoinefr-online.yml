@@ -6,7 +6,6 @@ antoinefr-online:
   admin:
     settings:
       displaymax: 'ნაჩვენები წევრების რაოდენობა'
-      title: პარამეტრები
       titleoflist: 'სათაური, რომელიც გამოჩნდება სიის ზემოთ'
   forum:
     andmore: 'და {more} მეტი...'

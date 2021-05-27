@@ -4,11 +4,6 @@
 
 core:
   admin:
-    add_extension:
-      developer_text: 'თუ დეველოპერი ხართ, შეგიძლიათ <a>წაიკითხოთ დოკუმენტები</a> და გაეცნოთ საკუთარი გაფართოებების შექმნას.'
-      install_text: 'ამასობაში, შეგიძლიათ მოძებნოთ გაფართოებები <a>Flarum Community საიტზე</a> და ხელით დააინსტალიროთ კომპოზიტორის გამოყენებით.'
-      temporary_text: 'არც თუ ისე შორეულ მომავალში, ერთ დღეს, ეს დიალოგი საშუალებას მოგცემთ მარტივად დაამატოთ გაფართოება თქვენს ფორუმში. ჩვენ ვსაუბრობთ ეკოსისტემას!'
-      title: 'გაფართოების დამატება'
     appearance:
       colored_header_label: 'ფერადი სათაური'
       colors_heading: ფერები
@@ -36,7 +31,6 @@ core:
       forum_title_heading: 'ფორუმის სათაური'
       home_page_heading: 'მთავარი გვერდი'
       home_page_text: 'შეარჩიეთ გვერდი, რომელსაც მომხმარებლები პირველად ნახავენ თქვენი ფორუმის მონახულებისას.'
-      saved_message: 'თქვენი ცვლილებები შენახულია.'
       show_language_selector_label: 'აჩვენეთ ენის ამრჩევი'
       slug_driver_heading: 'სლაგ დრაივერი: {model}'
       slug_driver_text: 'შეარჩიეთ დრაივერი, რომელიც გამოიყენება ამ მოდელის სლუგინგისთვის.'
@@ -78,7 +72,6 @@ core:
       send_test_mail_success: 'მეილის ტესტი წარმატებით გაიგზავნა!'
       send_test_mail_text: 'ეს გამოგზავნის ელ.ფოსტას ზემოთ მოცემული კონფიგურაციით, თქვენს ელ.ფოსტაზე - {email}.'
       smtp_heading: 'STMP პარამეტრები'
-      text: 'დრაივერის, პარამეტრებისა და მისამართების კონფიგურაცია, რომელსაც  თქვენი ფორუმი გამოიყენებს შეტყობინების გასაგზავნად.'
     extension:
       confirm_uninstall: 'ინსტალაციით წაიშლება მონაცემთა ბაზის ყველა ჩანაწერი და აქტივები, რომლებიც დაკავშირებულია გაფართოებასთან. დარწმუნებული ხართ, რომ გსურთ გაგრძელება?'
       disabled: გამორთული
@@ -95,18 +88,12 @@ core:
       no_settings: 'ამ გაფართოებას არ აქვს პარამეტრები.'
       open_modal: 'პარამეტრების გახსნა'
       permissions_title: უფლებები
-      saved_message: 'თქვენი ცვლილებები შენახულია.'
       uninstall_button: წაშლა
-    extensions:
-      add_button: 'გაფართოების დამატება'
-      uninstall_button: ამოშლა
     header:
       get_help: 'დახმარების მიღება'
     loading:
       title: 'გთხოვთ მოიცადოთ...'
     nav:
-      appearance_text: 'მოირგეთ თქვენი ფორუმის ფერები, ლოგოები და სხვა ცვლადები.'
-      basics_text: 'დააყენეთ თქვენი ფორუმის სათაური, ენა და სხვა ძირითადი პარამეტრები.'
       categories:
         authentication: აუთენტიფიკაცია
         core: 'ძირითადი კონფიგურაცია'
@@ -117,11 +104,6 @@ core:
         moderation: მოდერაცია
         other: 'სხვა გაფართოებები'
         theme: თემები
-      dashboard_text: 'თქვენი ფორუმი ერთი შეხედვით.'
-      email_text: 'თქვენი ფორუმის ელ.ფოსტის პარამეტრების კონფიგურაცია.'
-      extensions_button: გაფართოებები
-      extensions_text: 'თქვენს ფორუმს დაამატეთ დამატებითი ფუნქციები და გახადეთ საკუთარი.'
-      permissions_text: 'დააკონფიგურირეთ ვინ რას ხედავს და რას აკეთებს.'
       search_placeholder: 'გაფართოებების ძებნა'
     permissions:
       allow_post_editing_label: 'პოსტის რედაქტირების დაშვება'
@@ -145,11 +127,9 @@ core:
       sign_up_label: რეგისტრაცია
       start_discussions_label: 'დისკუსიის დაწყება'
       title: ნებართვები
-      view_discussions_label: 'დისკუსიების ნახვა'
       view_hidden_groups_label: 'ფარული ჯგუფის სამკერდე ნიშნების ნახვა'
       view_last_seen_at_label: 'მომხმარებლის ბოლოს ნანახი დროის ყოველთვის ნახვა'
       view_post_ips_label: 'პოსტის IP მისამართების ნახვა'
-      view_user_list_label: 'მომხმარებლის სიის ნახვა'
     permissions_controls:
       allow_indefinitely_button: განუსაზღვრელად
       allow_some_minutes_button: '{count} წუთით| {count} წუთის განმავლობაში'
@@ -209,11 +189,6 @@ core:
       mark_as_read_tooltip: 'წაკითხულად მონიშვნა'
       replied_text: '{username} უპასუხა {ago}'
       started_text: '{username} დაიწყო {ago}'
-    edit_user:
-      activate_button: 'გაააქტიურეთ მომხმარებელი'
-      groups_heading: ჯგუფები
-      set_password_label: 'დააყენეთ ახალი პაროლი'
-      title: 'მომხმარებლის რედაქტირება'
     forgot_password:
       email_sent_message: 'ჩვენ გამოგიგზავნეთ ელ.წერილი, რომელიც შეიცავს ბმულს თქვენი პაროლის გადასაყენებლად. შეამოწმეთ თქვენი სპამის საქაღალდე, თუ არ მიიღებთ მომდევნო ერთ ან ორ წუთში.'
       not_found_message: 'ელ.ფოსტის მისამართზე რეგისტრირებული მომხმარებელი არ არის.'

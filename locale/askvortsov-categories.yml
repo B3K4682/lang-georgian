@@ -30,8 +30,6 @@ askvortsov-categories:
       categories_link: კატეგორიები
     last_discussion_widget:
       no_discussions: 'არ არის დისკუსიები (ჯერ!)'
-    meta:
-      categories_title: კატეგორიები
     stat-widgets:
       discussion_label: დისკუსიები
       post_label: პოსტები
